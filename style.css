@@ -50,6 +50,10 @@ h2{
     font-weight: 500;
     font-display: swap;
 }
+
+h5{ 
+    color: red;
+}
 .img1{
     width: 700px;
 }
@@ -68,3 +72,35 @@ h2{
     font-weight: 200;
     padding: 10px;
 }
+
+.more-articles {
+    text-align: center;
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+section {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
+}
+
+.more-articles h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+.more-articles section {
+    display: inline-block;
+    width: calc(45% - 1%); /* 45 percent of whats left after taking the second-listed one percent. originally found as "width: calc(50% - 10px"); */
+    vertical-align: top;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  
+  .more-articles section img {
+    width: 100%;
+    height: auto;
+  }
